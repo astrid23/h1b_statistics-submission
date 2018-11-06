@@ -84,15 +84,3 @@ for line in lines:
 ## count occurrence and output formatted result
 outputResult('states', countOccurance(state))
 outputResult('occupations', countOccurance(occupation))
-# stateCount = countOccurance(state)
-# if len(stateCount) > 10:
-#     outputResult('states', stateCount[:10])
-# else:
-#     outputResult('states', stateCount)
-
-    
-# occupationCount = countOccurance(occupation)
-# if len(occupationCount) > 10:
-#     outputResult('occupations', occupationCount[:10])
-# else:
-#     outputResult('occupations', occupationCount)
