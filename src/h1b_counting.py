@@ -35,7 +35,7 @@ def countOccurance(datalist):
     for item in uniqueItem:
         singleCount = datalist.count(item);
         ## format data as name of the entry, occurrence count and percentage
-        itemCount.append((item.strip('"'),singleCount, "{:.1%}".format(singleCount/totalOccurance)))
+        itemCount.append((item.strip('"'),singleCount, "{0:.1%}".format(singleCount/totalOccurance)))
     ## return the list of tuples sorted by occurrence counts in reverse order and alphabetic when the counts reach a tie 
     return sorted(itemCount, key = lambda x: (-x[1],x[0]))
 
